@@ -5,13 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <script>
-        alert ("hello world")
+
+    <style>
+        .sectionOne {
+            border: 2px solid yellow;
+            display: flex;
+            height: 400px;
+            flex-wrap: wrap;
+        
+        
+        }
+
+        .sectionOne> .left>img {
+           width: 200px;
+           border-radius: 50%;
+        }
+
+        .sectionOne> .left {
+            border: 2px soli red;
+            flex-grow: 30;
+
+            display: flex;
+            justify-content: column;
+            align-items: center;
+        }
+        .sectionOne> .right {
+            border: 2px soli red;
+            flex-grow: 70;
+
+            display: flex;
+            justify-content: column;
+            align-items: center;
+        }
+
+        .sectionOne>.left> h1,
+        .sectionOne>.left> h2{   
+            margin: 5px;
+        }
+
+        </style>
+
+    </head>
 
 
-    </script>
+    <body>
+        <div class="sectionOne">
+
+
+
+        <div class="left"> 
+            <img src=".profile.img.jpeg" alt="">
+
+
+
+
+            <h1>Ahtisham Rizwan</h1>
+            <br>
+            <h2>Web Developer</h2>
+
+            
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+   
 
 
 
